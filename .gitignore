@@ -1,0 +1,36 @@
+# Node / TS
+node_modules/
+dist/
+build/
+out/
+.next/
+*.tsbuildinfo
+
+# Vite
+*.local
+
+# Env / secrets (never commit keys — AA_API_KEY, SYNC_TOKEN live here)
+.env
+.env.*
+!.env.example
+
+# Pipeline caches (regenerable; snapshots in data/ ARE committed)
+pipeline/.cache/
+worker/.cache/
+.wrangler/
+.dev.vars
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs / temp
+*.log
+npm-debug.log*
+.cache/
+tmp/
+temp/
